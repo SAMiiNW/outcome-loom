@@ -1,0 +1,12 @@
+{
+  "contract": "0x60D5FE93B3E41f78C2d1f71c67E4183a4C843b24",
+  "deploymentTx": "0xcd75dd09f31d69b299ce153df8e00b27f83f7c9c54761faecf9735988c6dddff",
+  "network": "StudioNet",
+  "deployer": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+  "sourceCommit": "326f8c563ec9c3c6dba882cc6f77a8266c6183be",
+  "evidenceCommit": "326f8c563ec9c3c6dba882cc6f77a8266c6183be",
+  "evidenceBase": "https://raw.githubusercontent.com/SAMiiNW/outcome-loom/326f8c563ec9c3c6dba882cc6f77a8266c6183be/evidence/",
+  "mirrorBase": "https://cdn.jsdelivr.net/gh/SAMiiNW/outcome-loom@326f8c563ec9c3c6dba882cc6f77a8266c6183be/evidence/",
+  "receiptStatus": "ACCEPTED",
+  "execution": "CONTRACT_ADDRESS_RETURNED"
+}

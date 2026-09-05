@@ -1,0 +1,30 @@
+{
+  "marketId": "OL-1788573276",
+  "transactions": {
+    "create": "0x4475eb25414c080032ef36debbb9c456081ab6a842e5864cf25c099a54188116",
+    "commit": "0x83a74f64fdeafbaa9ac3984bb5ff190603d7dbb774754eb09531311927712123",
+    "reveal": "0x5268cbe2d42ac3b398411192eec69db3ef881a1ece3e687676fe02f7ea33b71c",
+    "finalize": "0x8776ec539e443228ccfe9577dfa18c286a4fe74cb8626a4e1d914884a49267fa"
+  },
+  "state": {
+    "commitEnd": 1788573321,
+    "digests": [
+      "ffd0c285e55ec2e5f9e1f07be28e682dd6641aea6ef06de2bc28cab262cfa7d4",
+      "1e2624188ce8b498b22b0eddeda08b338c02f2b1669b61ef2e290e155df09095"
+    ],
+    "id": "OL-1788573276",
+    "options": [
+      "NORTH",
+      "SOUTH"
+    ],
+    "outcome": "NORTH",
+    "owner": "0xCAFA30BF94D4fb01146588a1b7901BD85E7DbD0f",
+    "question": "Which region won the Regional Innovation Assembly 2030?",
+    "revealEnd": 1788573371,
+    "sources": [
+      "https://raw.githubusercontent.com/SAMiiNW/outcome-loom/326f8c563ec9c3c6dba882cc6f77a8266c6183be/evidence/certified-result.txt",
+      "https://cdn.jsdelivr.net/gh/SAMiiNW/outcome-loom@326f8c563ec9c3c6dba882cc6f77a8266c6183be/evidence/independent-archive.txt"
+    ],
+    "state": "FINAL"
+  }
+}
