@@ -10,7 +10,7 @@ Duplicate market IDs, same-host evidence, duplicate commitments, bad reveals, ea
 
 ## Verify
 
-Run `python -m pytest -q` and `genvm-lint contract/outcome_loom.py`. `evidence/network-run.json` records the complete StudioNet lifecycle. The web desk saves recovery material locally and keeps submitted, accepted and final states distinct.
+Run `python -m pytest forecast_tests -q` and `genvm-lint market_engine/outcome_loom.py`. `evidence/network-run.json` records the complete StudioNet lifecycle. The loom app saves recovery material locally and keeps submitted, accepted and final states distinct.
 
 ## StudioNet
 

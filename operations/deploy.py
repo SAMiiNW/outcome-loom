@@ -21,7 +21,7 @@ def address(value):
 def main():
  account=create_account(account_private_key=secret())
  client=create_client(chain=studionet,account=account)
- code=(ROOT/"contract/outcome_loom.py").read_text()
+ code=(ROOT/"market_engine/outcome_loom.py").read_text()
  tx=client.deploy_contract(code=code,args=[])
  print('deploy',tx,flush=True)
  receipt=client.wait_for_transaction_receipt(transaction_hash=tx,status=TransactionStatus.ACCEPTED,retries=120,interval=10000)
